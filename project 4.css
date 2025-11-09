@@ -1,0 +1,35 @@
+.head::first-letter{
+    font-size: 300%;
+    color: red;
+}
+h2 + p::first-letter{
+    font-size: 200%;
+    color: green;
+}
+h1{
+    box-shadow: 9px 9px 5px black;
+    text-align: center;
+    text-decoration: underline overline;
+}
+h1::first-letter{
+    font-size: 500%;
+    color: red;
+    text-decoration: none;
+}
+h2{
+    box-shadow: 4.5px 4.5px 2.5px black;
+    text-decoration: underline;
+    width: 175px;
+}
+h2::first-letter{
+    font-size: 300%;
+    color: red;
+    text-decoration: none;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.pic{
+    border: 5px dashed blue;
+    width: 500px;
+}  
